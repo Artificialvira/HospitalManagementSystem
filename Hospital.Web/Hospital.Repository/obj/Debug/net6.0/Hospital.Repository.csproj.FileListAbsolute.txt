@@ -1,0 +1,15 @@
+C:\Users\nasar\HMS\Hospital.Web\Hospital.Repository\bin\Debug\net6.0\Hospital.Repository.deps.json
+C:\Users\nasar\HMS\Hospital.Web\Hospital.Repository\bin\Debug\net6.0\Hospital.Repository.runtimeconfig.json
+C:\Users\nasar\HMS\Hospital.Web\Hospital.Repository\bin\Debug\net6.0\Hospital.Repository.dll
+C:\Users\nasar\HMS\Hospital.Web\Hospital.Repository\bin\Debug\net6.0\Hospital.Repository.pdb
+C:\Users\nasar\HMS\Hospital.Web\Hospital.Repository\obj\Debug\net6.0\Hospital.Repository.csproj.AssemblyReference.cache
+C:\Users\nasar\HMS\Hospital.Web\Hospital.Repository\obj\Debug\net6.0\Hospital.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nasar\HMS\Hospital.Web\Hospital.Repository\obj\Debug\net6.0\Hospital.Repository.AssemblyInfoInputs.cache
+C:\Users\nasar\HMS\Hospital.Web\Hospital.Repository\obj\Debug\net6.0\Hospital.Repository.AssemblyInfo.cs
+C:\Users\nasar\HMS\Hospital.Web\Hospital.Repository\obj\Debug\net6.0\Hospital.Repository.csproj.CoreCompileInputs.cache
+C:\Users\nasar\HMS\Hospital.Web\Hospital.Repository\obj\Debug\net6.0\EFCoreSqlServerNetTopologySuite.cs
+C:\Users\nasar\HMS\Hospital.Web\Hospital.Repository\obj\Debug\net6.0\Hospital.Repository.dll
+C:\Users\nasar\HMS\Hospital.Web\Hospital.Repository\obj\Debug\net6.0\refint\Hospital.Repository.dll
+C:\Users\nasar\HMS\Hospital.Web\Hospital.Repository\obj\Debug\net6.0\Hospital.Repository.pdb
+C:\Users\nasar\HMS\Hospital.Web\Hospital.Repository\obj\Debug\net6.0\Hospital.Repository.genruntimeconfig.cache
+C:\Users\nasar\HMS\Hospital.Web\Hospital.Repository\obj\Debug\net6.0\ref\Hospital.Repository.dll
