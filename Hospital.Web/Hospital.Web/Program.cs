@@ -3,6 +3,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.AspNetCore.Identity;
 using Hospital.Web;
 using Hospital.Utilities;
+using Hospital.Repository.Interfaces;
 
 namespace Hospital.Web
 {
@@ -18,6 +19,10 @@ namespace Hospital.Web
 
                         builder.Services.AddIdentity<IdentityUser,IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+
+            builder.Services.AddScoped<IDbInitializer,DbInitializer>();
+            builder.Services.AddTransient<IUnitOfWork,IUnitOfWork>();
+            builder.Services.AddRazorPages();
 
             var app = builder.Build();
 
@@ -36,10 +41,10 @@ namespace Hospital.Web
                         app.UseAuthentication();
 
             app.UseAuthorization();
-
+            app.MapRazorPages();
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{Area=Patient}/{controller=Home}/{action=Index}/{id?}");
 
             app.Run();
             void DataSeeding()

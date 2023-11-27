@@ -9,6 +9,7 @@
       "Hospital.Web/1.0.0": {
         "dependencies": {
           "Hospital.Repository": "1.0.0",
+          "Hospital.Utilities": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.24",
           "Microsoft.AspNetCore.Identity.UI": "6.0.23",
           "Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite": "7.0.13",
@@ -2957,6 +2958,17 @@
         "runtime": {
           "Hospital.Repository.dll": {}
         }
+      },
+      "Hospital.Utilities/1.0.0": {
+        "dependencies": {
+          "Hospital.Models": "1.0.0",
+          "Hospital.Repository": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.24",
+          "Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite": "7.0.13"
+        },
+        "runtime": {
+          "Hospital.Utilities.dll": {}
+        }
       }
     }
   },
@@ -4666,6 +4678,11 @@
       "sha512": ""
     },
     "Hospital.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Hospital.Utilities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -588,7 +588,9 @@ C:\Users\nasar\HospitalManagementSystem\Hospital.Web\Hospital.Web\bin\Debug\net6
 C:\Users\nasar\HospitalManagementSystem\Hospital.Web\Hospital.Web\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\nasar\HospitalManagementSystem\Hospital.Web\Hospital.Web\bin\Debug\net6.0\Hospital.Models.dll
 C:\Users\nasar\HospitalManagementSystem\Hospital.Web\Hospital.Web\bin\Debug\net6.0\Hospital.Repository.dll
+C:\Users\nasar\HospitalManagementSystem\Hospital.Web\Hospital.Web\bin\Debug\net6.0\Hospital.Utilities.dll
 C:\Users\nasar\HospitalManagementSystem\Hospital.Web\Hospital.Web\bin\Debug\net6.0\Hospital.Repository.pdb
+C:\Users\nasar\HospitalManagementSystem\Hospital.Web\Hospital.Web\bin\Debug\net6.0\Hospital.Utilities.pdb
 C:\Users\nasar\HospitalManagementSystem\Hospital.Web\Hospital.Web\bin\Debug\net6.0\Hospital.Models.pdb
 C:\Users\nasar\HospitalManagementSystem\Hospital.Web\Hospital.Web\obj\Debug\net6.0\Hospital.Web.csproj.AssemblyReference.cache
 C:\Users\nasar\HospitalManagementSystem\Hospital.Web\Hospital.Web\obj\Debug\net6.0\Hospital.Web.GeneratedMSBuildEditorConfig.editorconfig
