@@ -4274,10 +4274,25 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "Hospital.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.24",
+          "Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite": "7.0.13"
+        },
+        "compile": {
+          "bin/placeholder/Hospital.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Hospital.Models.dll": {}
+        }
+      },
       "Hospital.Repository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Hospital.Models": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.24",
           "Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite": "7.0.13"
         },
@@ -4286,6 +4301,22 @@
         },
         "runtime": {
           "bin/placeholder/Hospital.Repository.dll": {}
+        }
+      },
+      "Hospital.Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Hospital.Models": "1.0.0",
+          "Hospital.Repository": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.24",
+          "Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite": "7.0.13"
+        },
+        "compile": {
+          "bin/placeholder/Hospital.Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Hospital.Utilities.dll": {}
         }
       }
     }
@@ -11932,15 +11963,26 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "Hospital.Models/1.0.0": {
+      "type": "project",
+      "path": "../Hospital.Models/Hospital.Models.csproj",
+      "msbuildProject": "../Hospital.Models/Hospital.Models.csproj"
+    },
     "Hospital.Repository/1.0.0": {
       "type": "project",
       "path": "../Hospital.Repository/Hospital.Repository.csproj",
       "msbuildProject": "../Hospital.Repository/Hospital.Repository.csproj"
+    },
+    "Hospital.Utilities/1.0.0": {
+      "type": "project",
+      "path": "../Hospital.Utilities/Hospital.Utilities.csproj",
+      "msbuildProject": "../Hospital.Utilities/Hospital.Utilities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Hospital.Repository >= 1.0.0",
+      "Hospital.Utilities >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.24",
       "Microsoft.AspNetCore.Identity.UI >= 6.0.23",
       "Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite >= 7.0.13",
@@ -11956,11 +11998,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nasar\\HMS\\Hospital.Web\\Hospital.Web\\Hospital.Web.csproj",
+      "projectUniqueName": "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Web\\Hospital.Web.csproj",
       "projectName": "Hospital.Web",
-      "projectPath": "C:\\Users\\nasar\\HMS\\Hospital.Web\\Hospital.Web\\Hospital.Web.csproj",
+      "projectPath": "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Web\\Hospital.Web.csproj",
       "packagesPath": "C:\\Users\\nasar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nasar\\HMS\\Hospital.Web\\Hospital.Web\\obj\\",
+      "outputPath": "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -11982,8 +12024,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\nasar\\HMS\\Hospital.Web\\Hospital.Repository\\Hospital.Repository.csproj": {
-              "projectPath": "C:\\Users\\nasar\\HMS\\Hospital.Web\\Hospital.Repository\\Hospital.Repository.csproj"
+            "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Repository\\Hospital.Repository.csproj": {
+              "projectPath": "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Repository\\Hospital.Repository.csproj"
+            },
+            "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Utilities\\Hospital.Utilities.csproj": {
+              "projectPath": "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Utilities\\Hospital.Utilities.csproj"
             }
           }
         }

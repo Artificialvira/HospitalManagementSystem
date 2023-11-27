@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nasar\\HMS\\Hospital.Web\\Hospital.Models\\Hospital.Models.csproj": {}
+    "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Models\\Hospital.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nasar\\HMS\\Hospital.Web\\Hospital.Models\\Hospital.Models.csproj": {
+    "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Models\\Hospital.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nasar\\HMS\\Hospital.Web\\Hospital.Models\\Hospital.Models.csproj",
+        "projectUniqueName": "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Models\\Hospital.Models.csproj",
         "projectName": "Hospital.Models",
-        "projectPath": "C:\\Users\\nasar\\HMS\\Hospital.Web\\Hospital.Models\\Hospital.Models.csproj",
+        "projectPath": "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Models\\Hospital.Models.csproj",
         "packagesPath": "C:\\Users\\nasar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nasar\\HMS\\Hospital.Web\\Hospital.Models\\obj\\",
+        "outputPath": "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

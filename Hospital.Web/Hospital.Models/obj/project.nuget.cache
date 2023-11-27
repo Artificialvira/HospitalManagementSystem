@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HWicDCIMAmm0Hh76JfkRsS07OLAlbb+MK0D89/fdXXhuUSF64CsvQEj3gNmSRWS2sv7Bk7db4hZtIhjhc9mwPg==",
+  "dgSpecHash": "mP1nKKiNXU6Dhf8aUX3aJsXxvBCY+/wfx5b+QRJ1xnpqi3uNZ+BlTfoi1brFjIBUCOrFqDSdPVhhy0pxKQ+uOg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nasar\\HMS\\Hospital.Web\\Hospital.Models\\Hospital.Models.csproj",
+  "projectFilePath": "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Models\\Hospital.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nasar\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\nasar\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.AspNetCore.Identity;
 using Hospital.Web;
+using Hospital.Utilities;
 
 namespace Hospital.Web
 {
@@ -15,7 +16,7 @@ namespace Hospital.Web
             builder.Services.AddControllersWithViews();
             builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-                        builder.Services.AddDefaultIdentity<IdentityUser>()
+                        builder.Services.AddIdentity<IdentityUser,IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
             var app = builder.Build();
@@ -30,9 +31,9 @@ namespace Hospital.Web
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
+            DataSeeding();
             app.UseRouting();
-                        app.UseAuthentication();;
+                        app.UseAuthentication();
 
             app.UseAuthorization();
 
@@ -41,6 +42,14 @@ namespace Hospital.Web
                 pattern: "{controller=Home}/{action=Index}/{id?}");
 
             app.Run();
+            void DataSeeding()
+            {
+                using (var scope = app.Services.CreateScope())
+                {
+                    var dbInitializer = scope.ServiceProvider.GetRequiredService<IDbInitializer>();
+                    dbInitializer.Initialize();
+                }
+            }
         }
     }
 }

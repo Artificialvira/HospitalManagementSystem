@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Hospital.Services
-build_property.ProjectDir = C:\Users\nasar\HMS\Hospital.Web\Hospital.Services\
+build_property.ProjectDir = C:\Users\nasar\HospitalManagementSystem\Hospital.Web\Hospital.Services\
