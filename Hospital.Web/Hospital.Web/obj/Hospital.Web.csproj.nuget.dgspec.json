@@ -49,6 +49,90 @@
               "target": "Package",
               "version": "[6.0.24, )"
             },
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.ModelViews\\Hospital.ModelViews.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.ModelViews\\Hospital.ModelViews.csproj",
+        "projectName": "Hospital.ModelViews",
+        "projectPath": "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.ModelViews\\Hospital.ModelViews.csproj",
+        "packagesPath": "C:\\Users\\nasar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.ModelViews\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nasar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.24, )"
+            },
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite": {
               "target": "Package",
               "version": "[7.0.13, )"
@@ -128,6 +212,90 @@
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.24, )"
+            },
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Services\\Hospital.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Services\\Hospital.Services.csproj",
+        "projectName": "Hospital.Services",
+        "projectPath": "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Services\\Hospital.Services.csproj",
+        "packagesPath": "C:\\Users\\nasar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nasar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.24, )"
+            },
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite": {
               "target": "Package",
@@ -212,6 +380,10 @@
               "target": "Package",
               "version": "[6.0.24, )"
             },
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite": {
               "target": "Package",
               "version": "[7.0.13, )"
@@ -272,8 +444,17 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Models\\Hospital.Models.csproj": {
+                "projectPath": "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Models\\Hospital.Models.csproj"
+              },
+              "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.ModelViews\\Hospital.ModelViews.csproj": {
+                "projectPath": "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.ModelViews\\Hospital.ModelViews.csproj"
+              },
               "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Repository\\Hospital.Repository.csproj": {
                 "projectPath": "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Repository\\Hospital.Repository.csproj"
+              },
+              "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Services\\Hospital.Services.csproj": {
+                "projectPath": "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Services\\Hospital.Services.csproj"
               },
               "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Utilities\\Hospital.Utilities.csproj": {
                 "projectPath": "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Utilities\\Hospital.Utilities.csproj"
@@ -299,13 +480,13 @@
               "target": "Package",
               "version": "[6.0.23, )"
             },
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite": {
               "target": "Package",
               "version": "[7.0.13, )"
-            },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
-              "target": "Package",
-              "version": "[6.0.23, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
