@@ -4184,6 +4184,7 @@
           "Hospital.Models": "1.0.0",
           "Hospital.Repository": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.24",
+          "Microsoft.AspNetCore.Identity.UI": "6.0.23",
           "Microsoft.Data.Sqlite.Core": "6.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite": "7.0.13"
         },

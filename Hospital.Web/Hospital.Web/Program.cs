@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Identity;
 using Hospital.Web;
 using Hospital.Utilities;
 using Hospital.Repository.Interfaces;
+using Hospital.Repository.Implementation;
+using Microsoft.AspNetCore.Identity.UI.Services;
 
 namespace Hospital.Web
 {
@@ -21,7 +23,8 @@ namespace Hospital.Web
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
             builder.Services.AddScoped<IDbInitializer,DbInitializer>();
-            builder.Services.AddTransient<IUnitOfWork,IUnitOfWork>();
+            builder.Services.AddTransient<IUnitOfWork,UnitOfWork>();
+            builder.Services.AddScoped<IEmailSender, EmailSender>();
             builder.Services.AddRazorPages();
 
             var app = builder.Build();
