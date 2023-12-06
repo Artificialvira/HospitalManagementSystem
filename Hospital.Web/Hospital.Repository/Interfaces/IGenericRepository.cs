@@ -21,6 +21,7 @@ namespace Hospital.Repository.Repository
         Task<T> UpdateByAsync(T entity);
         void Delete(T entity);
         Task<T> DeleteByAsync(T entity);
+        public IEnumerable<T> GetAll();
 
     }
 }

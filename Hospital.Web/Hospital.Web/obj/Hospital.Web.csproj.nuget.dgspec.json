@@ -112,7 +112,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Models\\Hospital.Models.csproj": {
+                "projectPath": "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Models\\Hospital.Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -276,7 +280,14 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.ModelViews\\Hospital.ModelViews.csproj": {
+                "projectPath": "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.ModelViews\\Hospital.ModelViews.csproj"
+              },
+              "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Utilities\\Hospital.Utilities.csproj": {
+                "projectPath": "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Utilities\\Hospital.Utilities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

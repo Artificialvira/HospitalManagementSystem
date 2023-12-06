@@ -116,5 +116,13 @@ namespace Hospital.Repository.Implementation
             }
             _disposed = true;
         }
+
+        public IEnumerable<T> GetAll()
+        {
+            IQueryable<T> query = dbset;
+            return query.ToList();
+        }
+
+    
     }
 }

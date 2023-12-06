@@ -13,3 +13,6 @@ C:\Users\nasar\HospitalManagementSystem\Hospital.Web\Hospital.ModelViews\obj\Deb
 C:\Users\nasar\HospitalManagementSystem\Hospital.Web\Hospital.ModelViews\obj\Debug\net6.0\Hospital.ModelViews.pdb
 C:\Users\nasar\HospitalManagementSystem\Hospital.Web\Hospital.ModelViews\obj\Debug\net6.0\Hospital.ModelViews.genruntimeconfig.cache
 C:\Users\nasar\HospitalManagementSystem\Hospital.Web\Hospital.ModelViews\obj\Debug\net6.0\ref\Hospital.ModelViews.dll
+C:\Users\nasar\HospitalManagementSystem\Hospital.Web\Hospital.ModelViews\bin\Debug\net6.0\Hospital.Models.dll
+C:\Users\nasar\HospitalManagementSystem\Hospital.Web\Hospital.ModelViews\bin\Debug\net6.0\Hospital.Models.pdb
+C:\Users\nasar\HospitalManagementSystem\Hospital.Web\Hospital.ModelViews\obj\Debug\net6.0\Hospital.ModelViews.csproj.CopyComplete

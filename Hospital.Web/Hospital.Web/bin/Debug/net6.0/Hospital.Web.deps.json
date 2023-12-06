@@ -2799,6 +2799,7 @@
       },
       "Hospital.ModelViews/1.0.0": {
         "dependencies": {
+          "Hospital.Models": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.24",
           "Microsoft.Data.Sqlite.Core": "6.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite": "7.0.13"
@@ -2820,6 +2821,8 @@
       },
       "Hospital.Services/1.0.0": {
         "dependencies": {
+          "Hospital.ModelViews": "1.0.0",
+          "Hospital.Utilities": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.24",
           "Microsoft.Data.Sqlite.Core": "6.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite": "7.0.13"

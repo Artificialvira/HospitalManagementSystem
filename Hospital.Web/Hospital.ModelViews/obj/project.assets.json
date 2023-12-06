@@ -1223,6 +1223,21 @@
             "rid": "win"
           }
         }
+      },
+      "Hospital.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.24",
+          "Microsoft.Data.Sqlite.Core": "6.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite": "7.0.13"
+        },
+        "compile": {
+          "bin/placeholder/Hospital.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Hospital.Models.dll": {}
+        }
       }
     }
   },
@@ -3207,10 +3222,16 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Hospital.Models/1.0.0": {
+      "type": "project",
+      "path": "../Hospital.Models/Hospital.Models.csproj",
+      "msbuildProject": "../Hospital.Models/Hospital.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Hospital.Models >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.24",
       "Microsoft.Data.Sqlite.Core >= 6.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite >= 7.0.13",
@@ -3249,7 +3270,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Models\\Hospital.Models.csproj": {
+              "projectPath": "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Models\\Hospital.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

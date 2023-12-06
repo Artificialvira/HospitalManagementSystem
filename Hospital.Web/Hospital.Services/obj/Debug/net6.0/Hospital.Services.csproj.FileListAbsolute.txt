@@ -13,3 +13,12 @@ C:\Users\nasar\HospitalManagementSystem\Hospital.Web\Hospital.Services\obj\Debug
 C:\Users\nasar\HospitalManagementSystem\Hospital.Web\Hospital.Services\obj\Debug\net6.0\Hospital.Services.pdb
 C:\Users\nasar\HospitalManagementSystem\Hospital.Web\Hospital.Services\obj\Debug\net6.0\Hospital.Services.genruntimeconfig.cache
 C:\Users\nasar\HospitalManagementSystem\Hospital.Web\Hospital.Services\obj\Debug\net6.0\ref\Hospital.Services.dll
+C:\Users\nasar\HospitalManagementSystem\Hospital.Web\Hospital.Services\bin\Debug\net6.0\Hospital.Models.dll
+C:\Users\nasar\HospitalManagementSystem\Hospital.Web\Hospital.Services\bin\Debug\net6.0\Hospital.ModelViews.dll
+C:\Users\nasar\HospitalManagementSystem\Hospital.Web\Hospital.Services\bin\Debug\net6.0\Hospital.Repository.dll
+C:\Users\nasar\HospitalManagementSystem\Hospital.Web\Hospital.Services\bin\Debug\net6.0\Hospital.Utilities.dll
+C:\Users\nasar\HospitalManagementSystem\Hospital.Web\Hospital.Services\bin\Debug\net6.0\Hospital.ModelViews.pdb
+C:\Users\nasar\HospitalManagementSystem\Hospital.Web\Hospital.Services\bin\Debug\net6.0\Hospital.Utilities.pdb
+C:\Users\nasar\HospitalManagementSystem\Hospital.Web\Hospital.Services\bin\Debug\net6.0\Hospital.Models.pdb
+C:\Users\nasar\HospitalManagementSystem\Hospital.Web\Hospital.Services\bin\Debug\net6.0\Hospital.Repository.pdb
+C:\Users\nasar\HospitalManagementSystem\Hospital.Web\Hospital.Services\obj\Debug\net6.0\Hospital.Services.csproj.CopyComplete
