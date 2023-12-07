@@ -18,7 +18,8 @@
           "Microsoft.Data.Sqlite.Core": "6.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite": "7.0.13",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.13",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.16"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.16",
+          "cloudscribe.Web.Pagination": "6.0.0"
         },
         "runtime": {
           "Hospital.Web.dll": {}
@@ -55,6 +56,29 @@
           "lib/netstandard2.0/Azure.Identity.dll": {
             "assemblyVersion": "1.7.0.0",
             "fileVersion": "1.700.22.46903"
+          }
+        }
+      },
+      "cloudscribe.Pagination.Models/1.1.0": {
+        "dependencies": {
+          "System.Linq.Queryable": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/cloudscribe.Pagination.Models.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      },
+      "cloudscribe.Web.Pagination/6.0.0": {
+        "dependencies": {
+          "System.Linq.Queryable": "4.3.0",
+          "cloudscribe.Pagination.Models": "1.1.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.Web.Pagination.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
           }
         }
       },
@@ -2301,6 +2325,18 @@
           "System.Threading": "4.3.0"
         }
       },
+      "System.Linq.Queryable/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.Linq.Expressions": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Extensions": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
       "System.Memory/4.5.5": {},
       "System.Memory.Data/1.0.2": {
         "dependencies": {
@@ -2865,6 +2901,20 @@
       "sha512": "sha512-eHEiCO/8+MfNc9nH5dVew/+FvxdaGrkRL4OMNwIz0W79+wtJyEoeRlXJ3SrXhoy9XR58geBYKmzMR83VO7bcAw==",
       "path": "azure.identity/1.7.0",
       "hashPath": "azure.identity.1.7.0.nupkg.sha512"
+    },
+    "cloudscribe.Pagination.Models/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RR2IPdUfavFEls5AF32p9D2S993M/wsxIlO2DX9nlgH+zEl4l0800AQSucdarUOuhAEbmXRr+dtgxcTOLuKXrw==",
+      "path": "cloudscribe.pagination.models/1.1.0",
+      "hashPath": "cloudscribe.pagination.models.1.1.0.nupkg.sha512"
+    },
+    "cloudscribe.Web.Pagination/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6f9M7BsafnMcJhhoF2GWun+C+7N2w66dgOk0gsw3dSyOJ1L5VV3l1BDq3fUuPgIsUxl9G64mHoyMQOGTMHK0TA==",
+      "path": "cloudscribe.web.pagination/6.0.0",
+      "hashPath": "cloudscribe.web.pagination.6.0.0.nupkg.sha512"
     },
     "Humanizer/2.14.1": {
       "type": "package",
@@ -4153,6 +4203,13 @@
       "sha512": "sha512-PGKkrd2khG4CnlyJwxwwaWWiSiWFNBGlgXvJpeO0xCXrZ89ODrQ6tjEWS/kOqZ8GwEOUATtKtzp1eRgmYNfclg==",
       "path": "system.linq.expressions/4.3.0",
       "hashPath": "system.linq.expressions.4.3.0.nupkg.sha512"
+    },
+    "System.Linq.Queryable/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-In1Bmmvl/j52yPu3xgakQSI0YIckPUr870w4K5+Lak3JCCa8hl+my65lABOuKfYs4ugmZy25ScFerC4nz8+b6g==",
+      "path": "system.linq.queryable/4.3.0",
+      "hashPath": "system.linq.queryable.4.3.0.nupkg.sha512"
     },
     "System.Memory/4.5.5": {
       "type": "package",

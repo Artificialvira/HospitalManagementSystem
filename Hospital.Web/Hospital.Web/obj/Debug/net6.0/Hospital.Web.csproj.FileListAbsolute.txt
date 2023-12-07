@@ -597,3 +597,5 @@ C:\Users\nasar\HospitalManagementSystem\Hospital.Web\Hospital.Web\bin\Debug\net6
 C:\Users\nasar\HospitalManagementSystem\Hospital.Web\Hospital.Web\bin\Debug\net6.0\Hospital.Services.dll
 C:\Users\nasar\HospitalManagementSystem\Hospital.Web\Hospital.Web\bin\Debug\net6.0\Hospital.ModelViews.pdb
 C:\Users\nasar\HospitalManagementSystem\Hospital.Web\Hospital.Web\bin\Debug\net6.0\Hospital.Services.pdb
+C:\Users\nasar\HospitalManagementSystem\Hospital.Web\Hospital.Web\bin\Debug\net6.0\cloudscribe.Pagination.Models.dll
+C:\Users\nasar\HospitalManagementSystem\Hospital.Web\Hospital.Web\bin\Debug\net6.0\cloudscribe.Web.Pagination.dll

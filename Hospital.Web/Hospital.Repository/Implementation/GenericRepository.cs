@@ -89,13 +89,13 @@ namespace Hospital.Repository.Implementation
 
         public void Update(T entity)
         {
-            dbset.Attach(entity);
+            dbset.Update(entity);
             _context.Entry(entity).State = EntityState.Modified;
         }
 
         public async Task<T> UpdateByAsync(T entity)
         {
-            dbset.Attach(entity);
+            dbset.Update(entity);
             _context.Entry(entity).State = EntityState.Modified;
             return entity;
         }

@@ -1,6 +1,7 @@
 ﻿using Hospital.Models;
 using Hospital.ModelViews;
 using Hospital.Repository.Implementation;
+using Hospital.Repository.Interfaces;
 using Hospital.Utilities;
 using System;
 using System.Collections.Generic;
@@ -12,11 +13,11 @@ namespace Hospital.Services
 {
     public class HospitalInfo:IHospitalInfo
     {
-        public UnitOfWork _unitOfWork;
+        public readonly IUnitOfWork _unitOfWork;
 
-        public HospitalInfo(UnitOfWork unitOfWork)
+        public HospitalInfo(IUnitOfWork unitOfWork)
         {
-            _unitOfWork = unitOfWork;
+            this._unitOfWork = unitOfWork;
         }
 
         public void AddHospitalInfo(HospitalViewModel HospitalInfo)
