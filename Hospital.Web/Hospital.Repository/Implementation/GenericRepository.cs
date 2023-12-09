@@ -117,9 +117,14 @@ namespace Hospital.Repository.Implementation
             _disposed = true;
         }
 
-        public IEnumerable<T> GetAll()
+        public IEnumerable<T> GetAll(string includeProperties = "")
         {
+
             IQueryable<T> query = dbset;
+            foreach (var includeproperty in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+            {
+                query = query.Include(includeproperty);
+            }
             return query.ToList();
         }
 

@@ -10,7 +10,8 @@ namespace Hospital.Services
 {
     public interface IHospitalInfo
     {
-        PagedResult<HospitalViewModel> GetAll(int pageNumber,int pageSize);
+        PagedResult<HospitalViewModel> GetAllPaged(int pageNumber,int pageSize);
+        public List<HospitalViewModel> GetAll();
         HospitalViewModel GetHospitalById(int HospitalId);
         void UpdateHospitalInfo(HospitalViewModel HoapitalInfo);
         void InsertHospitalInfo(HospitalViewModel HoapitalInfo);

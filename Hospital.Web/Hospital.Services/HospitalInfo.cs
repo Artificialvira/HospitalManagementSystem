@@ -31,8 +31,25 @@ namespace Hospital.Services
             _unitOfWork.GenericRepository<Hospitals>().Delete(model);
             _unitOfWork.save();
         }
+        public List<HospitalViewModel> GetAll()
+        {
+            List<HospitalViewModel> vmList = new List<HospitalViewModel>();
 
-        public PagedResult<HospitalViewModel> GetAll(int pageNumber, int pageSize)
+            try
+            {
+                List<Hospitals> _modelList = _unitOfWork.GenericRepository<Hospitals>().GetAll().ToList();
+                vmList = ConvertModelToViewModelList(_modelList);
+            }
+            catch (Exception ex)
+            {
+                
+                throw;
+            }
+
+            return vmList;
+        }
+
+        public PagedResult<HospitalViewModel> GetAllPaged(int pageNumber=10, int pageSize=1)
         {
             var vm = new HospitalViewModel();
             int totalCount;

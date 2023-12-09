@@ -1,4 +1,4 @@
-﻿@using cloudscribe.Pagination.Models;
+﻿@using Hospital.Utilities;
 @model PagedResult<Hospital.ModelViews.RoomViewModel>
 
 @{
@@ -26,7 +26,7 @@
                  Status
             </th>
             <th>
-                 HospitalInfoId
+                 Hospital
             </th>
             <th></th>
         </tr>
@@ -47,7 +47,7 @@
                 @Html.DisplayFor(modelItem => item.Status)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.HospitalInfoId)
+                @Html.DisplayFor(modelItem => item.Hospitals.Name)
             </td>
             <td>
                 @Html.ActionLink("Edit", "Edit", new { id = item.Id}) |

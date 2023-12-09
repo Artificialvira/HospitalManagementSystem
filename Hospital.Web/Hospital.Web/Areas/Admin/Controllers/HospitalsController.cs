@@ -17,7 +17,7 @@ namespace Hospital.Web.Areas.Admin.Controllers
 
         public IActionResult Index(int pagenumber =1,int pagesize=10)
         {
-            return View(_hospitalInfo.GetAll(pagenumber,pagesize));
+            return View(_hospitalInfo.GetAllPaged(pagenumber,pagesize));
         }
         [HttpGet]
         public IActionResult Edit(int id) 

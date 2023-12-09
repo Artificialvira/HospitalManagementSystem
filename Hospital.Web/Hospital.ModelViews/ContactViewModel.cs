@@ -13,6 +13,7 @@ namespace Hospital.ModelViews
         public string Email { get; set; }
         public string Phone { get; set; }
         public int HospitalId { get; set; }
+        public Hospitals Hospitals { get; set; }
 
         public ContactViewModel()
         {

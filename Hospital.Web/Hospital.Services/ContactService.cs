@@ -34,7 +34,7 @@ namespace Hospital.Services
             try
             {
                 int ExcludeRecords = (pagenumber * pagesize) - pagesize;
-                var modelList = UnitOfWork.GenericRepository<Contact>().GetAll().Skip(ExcludeRecords).Take(pagesize).ToList();
+                var modelList = UnitOfWork.GenericRepository<Contact>().GetAll(includeProperties:"Hospital").Skip(ExcludeRecords).Take(pagesize).ToList();
                 totalCount = UnitOfWork.GenericRepository<Contact>().GetAll().ToList().Count;
                 viewModels = ConvertModelToViewModelList(modelList);
             }

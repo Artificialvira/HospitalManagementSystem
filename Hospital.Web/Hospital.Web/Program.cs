@@ -27,6 +27,7 @@ namespace Hospital.Web
             builder.Services.AddScoped<IUnitOfWork,UnitOfWork>();
             builder.Services.AddScoped<IHospitalInfo, HospitalInfo>();
             builder.Services.AddTransient<IRoomService,RoomService>();
+            builder.Services.AddTransient<IContactService, ContactService>();
             builder.Services.AddScoped<IEmailSender, EmailSender>();
             
             builder.Services.AddRazorPages();

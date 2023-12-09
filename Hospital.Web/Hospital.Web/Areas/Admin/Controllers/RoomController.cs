@@ -2,6 +2,7 @@
 using Hospital.ModelViews;
 using Hospital.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Room.Web.Areas.Admin.Controllers
 {
@@ -10,10 +11,12 @@ namespace Room.Web.Areas.Admin.Controllers
     {
 
         private IRoomService _room;
+        private IHospitalInfo HospitalInfo;
 
-        public RoomController(IRoomService room)
+        public RoomController(IRoomService room, IHospitalInfo hospitalInfo)
         {
             _room = room;
+            HospitalInfo = hospitalInfo;
         }
 
         public IActionResult Index(int pagenumber = 1, int pagesize = 10)
@@ -24,6 +27,7 @@ namespace Room.Web.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult Edit(int id)
         {
+            ViewBag.hospital = new SelectList(HospitalInfo.GetAll(), "Id", "Name");
             var viewmodel = _room.GetRoomById(id);
             return View(viewmodel);
         }
@@ -36,6 +40,7 @@ namespace Room.Web.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult Create(int id)
         {
+            ViewBag.hospital = new SelectList(HospitalInfo.GetAll(), "Id", "Name");
             return View();
         }
         [HttpPost]
