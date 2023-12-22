@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dwOBb+LoUAQcTr2waWYVsPSSORFTyv4LJshvGc8h8jOSwz2/1AFsbkqDGzvKmvxb1c/I3R401frITVqWIqsrHg==",
+  "dgSpecHash": "XyWzfzlo9RSFhdBG+Re6qyE+OYfq92zPvklJBFo4NTOnpZPu9+AupKeEDhIOMkQJl+5n+6lB8HKVXdWT+G1PbQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Web\\Hospital.Web.csproj",
+  "projectFilePath": "C:\\Users\\nasar\\source\\repos\\HospitalManagementSystem\\Hospital.Web\\Hospital.Web\\Hospital.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nasar\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\nasar\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
@@ -243,7 +243,11 @@
     "C:\\Users\\nasar\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\nasar\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\nasar\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\nasar\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\nasar\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\nasar\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\nasar\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\nasar\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\nasar\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
   ],
   "logs": []
 }

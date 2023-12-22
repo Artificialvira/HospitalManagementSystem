@@ -11919,11 +11919,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Web\\Hospital.Web.csproj",
+      "projectUniqueName": "C:\\Users\\nasar\\source\\repos\\HospitalManagementSystem\\Hospital.Web\\Hospital.Web\\Hospital.Web.csproj",
       "projectName": "Hospital.Web",
-      "projectPath": "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Web\\Hospital.Web.csproj",
+      "projectPath": "C:\\Users\\nasar\\source\\repos\\HospitalManagementSystem\\Hospital.Web\\Hospital.Web\\Hospital.Web.csproj",
       "packagesPath": "C:\\Users\\nasar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Web\\obj\\",
+      "outputPath": "C:\\Users\\nasar\\source\\repos\\HospitalManagementSystem\\Hospital.Web\\Hospital.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -11938,27 +11938,26 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Models\\Hospital.Models.csproj": {
-              "projectPath": "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Models\\Hospital.Models.csproj"
+            "C:\\Users\\nasar\\source\\repos\\HospitalManagementSystem\\Hospital.Web\\Hospital.Models\\Hospital.Models.csproj": {
+              "projectPath": "C:\\Users\\nasar\\source\\repos\\HospitalManagementSystem\\Hospital.Web\\Hospital.Models\\Hospital.Models.csproj"
             },
-            "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.ModelViews\\Hospital.ModelViews.csproj": {
-              "projectPath": "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.ModelViews\\Hospital.ModelViews.csproj"
+            "C:\\Users\\nasar\\source\\repos\\HospitalManagementSystem\\Hospital.Web\\Hospital.ModelViews\\Hospital.ModelViews.csproj": {
+              "projectPath": "C:\\Users\\nasar\\source\\repos\\HospitalManagementSystem\\Hospital.Web\\Hospital.ModelViews\\Hospital.ModelViews.csproj"
             },
-            "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Repository\\Hospital.Repository.csproj": {
-              "projectPath": "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Repository\\Hospital.Repository.csproj"
+            "C:\\Users\\nasar\\source\\repos\\HospitalManagementSystem\\Hospital.Web\\Hospital.Repository\\Hospital.Repository.csproj": {
+              "projectPath": "C:\\Users\\nasar\\source\\repos\\HospitalManagementSystem\\Hospital.Web\\Hospital.Repository\\Hospital.Repository.csproj"
             },
-            "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Services\\Hospital.Services.csproj": {
-              "projectPath": "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Services\\Hospital.Services.csproj"
+            "C:\\Users\\nasar\\source\\repos\\HospitalManagementSystem\\Hospital.Web\\Hospital.Services\\Hospital.Services.csproj": {
+              "projectPath": "C:\\Users\\nasar\\source\\repos\\HospitalManagementSystem\\Hospital.Web\\Hospital.Services\\Hospital.Services.csproj"
             },
-            "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Utilities\\Hospital.Utilities.csproj": {
-              "projectPath": "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.Utilities\\Hospital.Utilities.csproj"
+            "C:\\Users\\nasar\\source\\repos\\HospitalManagementSystem\\Hospital.Web\\Hospital.Utilities\\Hospital.Utilities.csproj": {
+              "projectPath": "C:\\Users\\nasar\\source\\repos\\HospitalManagementSystem\\Hospital.Web\\Hospital.Utilities\\Hospital.Utilities.csproj"
             }
           }
         }
@@ -12015,6 +12014,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.25, 6.0.25]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.25, 6.0.25]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.25, 6.0.25]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.25, 6.0.25]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -12023,7 +12040,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -53,11 +53,8 @@ namespace Hospital.Services
         }
 
 
+        
         public RoomViewModel GetRoomById(int id)
-        {
-            throw new NotImplementedException();
-        }
-        public RoomViewModel GetHospitalById(int id)
         {
             var model = UnitOfWork.GenericRepository<Room>().GetById(id);
             var vm = new RoomViewModel(model);

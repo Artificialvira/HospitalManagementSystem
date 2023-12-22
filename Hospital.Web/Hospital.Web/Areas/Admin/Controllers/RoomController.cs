@@ -34,8 +34,15 @@ namespace Room.Web.Areas.Admin.Controllers
         [HttpPost]
         public IActionResult Edit(RoomViewModel roomViewModel)
         {
-            _room.UpdateRoom(roomViewModel);
-            return RedirectToAction("Index");
+            if (ModelState.IsValid)
+            {
+                _room.UpdateRoom(roomViewModel);
+                return RedirectToAction("Index");
+            }
+            ModelState.AddModelError("CustomError", "Custom error message.");
+
+            ViewBag.hospital = new SelectList(HospitalInfo.GetAll(), "Id", "Name");
+            return View(roomViewModel);
         }
         [HttpGet]
         public IActionResult Create(int id)

@@ -89,8 +89,8 @@ namespace Hospital.Repository.Implementation
 
         public void Update(T entity)
         {
-            dbset.Update(entity);
-            _context.Entry(entity).State = EntityState.Modified;
+            _context.Entry(entity).CurrentValues.SetValues(entity);
+            _context.SaveChanges();
         }
 
         public async Task<T> UpdateByAsync(T entity)

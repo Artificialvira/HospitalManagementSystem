@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Hospital.Utilities
-build_property.ProjectDir = C:\Users\nasar\HospitalManagementSystem\Hospital.Web\Hospital.Utilities\
+build_property.ProjectDir = C:\Users\nasar\source\repos\HospitalManagementSystem\Hospital.Web\Hospital.Utilities\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

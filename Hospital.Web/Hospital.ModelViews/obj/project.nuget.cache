@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8/vQ8YjI+BAOHYIS0viKosF6mNbDmvMlx5Dy6zETizSouuWa+MSY7OHdnATjsqb8wzCegMjWXFcM3PzNHMakyw==",
+  "dgSpecHash": "06XkQzQhy0cFg7fq0eGSZjqWu9oT0w9cWoUerXjwgVR9srDX5bHxpR199UQb201n9pZ7fWY1MTp5Bzvn/2GuXg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nasar\\HospitalManagementSystem\\Hospital.Web\\Hospital.ModelViews\\Hospital.ModelViews.csproj",
+  "projectFilePath": "C:\\Users\\nasar\\source\\repos\\HospitalManagementSystem\\Hospital.Web\\Hospital.ModelViews\\Hospital.ModelViews.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nasar\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\nasar\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
@@ -73,7 +73,10 @@
     "C:\\Users\\nasar\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\nasar\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
     "C:\\Users\\nasar\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\nasar\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
+    "C:\\Users\\nasar\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
+    "C:\\Users\\nasar\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\nasar\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\nasar\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512"
   ],
   "logs": []
 }

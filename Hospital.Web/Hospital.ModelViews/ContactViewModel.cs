@@ -25,6 +25,7 @@ namespace Hospital.ModelViews
             Email = model.Email;
             Phone = model.Phone;  
             HospitalId = model.HospitalId;
+            Hospitals = model.Hospital;
         }
         public Contact ConvertViewModel(ContactViewModel model)
         {
@@ -33,7 +34,8 @@ namespace Hospital.ModelViews
                 Id = model.Id,
                 Email = model.Email,
                 Phone = model.Phone,
-                HospitalId = model.HospitalId
+                HospitalId = model.HospitalId,
+                Hospital = model.Hospitals
             };
         }
     }
